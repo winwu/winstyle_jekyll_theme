@@ -1,0 +1,20 @@
+permalink : /:categories/:year/:month/:day/:title 
+html_lang: "zh-TW"
+timezone: nil
+
+
+name : New Style Theme
+markdown : redcarpet
+pygments : true
+sitekeywords: "Linux Service, Web Development, Open Source..."
+
+author :
+  author_name : WinWu
+  email : win@unisharp.com
+  twitter : yiyingwu.1990
+  github_account : winwu
+
+
+production_url : http://winstyle.github.io
+url : http://winstyle.localhost
+

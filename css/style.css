@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: left;
+  font-family: "微軟正黑體",Arial, sans-serif;
+  font-size: 14px;
+  color:#333;
+}
+a{
+  color: #666;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+li{
+  list-style: none
+}
+h1{
+  font-size:18px;
+}
+.post code {
+  border: 1px solid #E9E9E9;
+  background-color: #F1F1F1;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+.post pre {
+  border: 1px solid #DDD;
+  background-color: #F1F1F1;
+  padding: 9px;
+  border-radius: 6px;
+  margin: 10px 5px;
+}
+.post pre code{
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+
+#hd,
+#ft{
+  padding: 10px 176px;
+}
+#hd{
+  background: #18213D;
+  height: 25px;
+  line-height: 25px
+}
+
+#hd a{
+  color: #8E8ED6
+}
+#hd a:hover{
+  text-decoration: none;
+
+}
+#hd h1{
+  display: inline-block;
+  font-weight: normal;
+}
+#hd h1 a{
+  color:#fff;
+}
+#container{
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  min-height: 240px
+}
+#container>div{
+  padding:0 15px;
+}
+#bd_left{
+  width: 20%;
+  color: #777;
+  line-height: 20px
+}
+#bd_left h3{
+  font-size: 22px;
+  margin: 13px 0;
+}
+#bd_right{
+  width: 70%;
+}
+#bd_right h1{
+  font-size: 28px
+}
+#bd_right h2{
+  font-size: 24px
+}
+#bd_right .posts{
+  margin: 10px 0;
+  font-size: 15px;
+}
+#bd_right .post{
+  line-height: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #EEE;
+}
+#bd_right #article_hd{
+  padding-bottom: 10px;
+
+}
+#ft{
+  clear: both;
+}
